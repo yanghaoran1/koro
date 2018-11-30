@@ -1,0 +1,653 @@
+/* 
+* @Author: Marte
+* @Date:   2018-11-26 22:27:57
+* @Last Modified by:   Marte
+* @Last Modified time: 2018-11-30 11:23:58
+*/
+.nav>ul li{
+    background: #7E0001;
+}
+.head .hsearch p input:nth-child(2){
+    background: #643E35;
+    border-radius: 2px;
+}
+.nav h3{
+    background:#4a3931;
+}
+.nav h3 ul{
+    background: #73584a;
+}
+.nav h3 > ul > li a{
+    color:#b8a199;
+}
+.nav h3 > ul > li .nav_hot{
+    background: #392d26;
+    border-radius: 10px;
+    color: #cdbdb8;
+    
+}
+.nav h3 > ul > li h4{
+    color: #ede8e6;
+    text-shadow: 0 1px 2px rgba(0,0,0,0.6);
+    font-size: 14px;  
+    line-height: 20px;
+}
+.nav h3 > ul > li h4 a{
+    font-size: 14px;color: #ede8e6;
+}
+.nav h3 > ul li .nav_box{
+    box-shadow: 0 6px 12px rgba(0,0,0,0.3);
+    color: #ede8e6;
+    background:#58443A;
+    opacity: 1;
+}
+.nav h3 > ul li .nav_box ul li p a{
+    color:#b8a199;
+}
+.nav h3 > ul li .nav_box ul li h5{
+    color: #ede8e6;
+}
+
+
+
+
+
+}
+.list{
+    height: 500px;
+}
+#list .listt{
+    line-height: 20px;
+    color: #333;
+    margin-bottom: 5px;
+} 
+#list .list .listt a{
+    color: #333;
+    font-size: 12px;
+    margin:0 8px;
+}
+#list .listl{
+    width: 200px;
+    float: left;
+}
+#list .listl h3{
+    padding-left: 20px;
+    font-size: 14px;
+    height: 40px;
+    background: #E8E3DD;
+    line-height: 40px;
+    font-weight: 600;
+}
+#list .listl h4{
+    line-height: 16px;
+    font-size: 14px;
+    color: #333;
+    background: #fbfaf9;
+    border: 1px solid #e6e1db;
+    cursor: pointer;
+    width: 198px;
+    border-bottom: 0;
+}
+#list .listl h4 p{
+     padding: 12px;
+     border-bottom: 1px solid #ccc;
+}
+#list .listl span{
+    display: block;
+    width: 16px;
+    height: 16px;
+    background: url(../img/icons.png) no-repeat 0px -216px;
+    float: left;
+    margin-right: 10px;
+}
+#list .listl h4>ul{
+    padding:15px 0;
+    font: 12px/1.5 tahoma, arial, \5b8b\4f53, sans-serif;  
+    display: none;
+    background: #fff;
+}
+#list .listl h4 ul li{
+    font-family: "Microsoft YaHei";
+    font: 12px/1.5 tahoma, arial, 宋体, sans-serif;
+}
+#list .listl h4 ul li a{ 
+    margin-left: 40px;
+    line-height: 25px; 
+    color:#333;
+}
+#list .listl h4 ul li a:hover{
+    background-color: #c63f4e;
+    color: #fff;
+}
+#list .listl .listlc{
+    margin-top: 10px;
+}
+#list .listl .listlc>h4{
+    padding-left: 20px;
+    font-size: 14px;
+    height: 40px;
+    background: #E8E3DD;
+    line-height: 40px;
+}
+
+#list .listl .listlc ul li{
+    width: 153px;
+    background: #F4F4F0;
+    border-top: 1px solid #DDDDDD;
+    height: 25px;
+    line-height: 25px;
+    padding: 10px 10px 10px 35px;
+    position:relative;
+    top: 0px;
+    left:0px;
+    padding-top: 10px;
+}
+#list .listl .listlc ul li em{
+    display: block;
+    padding-right:4px;
+    width: 20px;
+    height: 20px;
+    background: url(../img/wine001.png) -85px -70px no-repeat;
+    color: #5b473b;
+    text-align: center;
+    font-weight: bold;
+    font-style: normal;
+    font-size: 14px;
+    font-family: Arial;
+    line-height: 20px;
+    position: absolute;
+    top: 10px;
+    left:5px;
+    z-index: 10 ;
+}
+#list .listl .listlc ul .liactive>em{
+    background-position: -60px -70px;
+}
+#list .listl .listlc ul li p{
+    color:#5B473D;
+    font-size: 12px;
+    height: 20px;
+    line-height: 24px;
+    overflow: hidden;  
+    display: block;
+}
+#list .listr .listr_top{
+    width: 990px;
+    height: 144px;
+    border-bottom: 1px solid #E6E1DB;
+}
+#list .listr .listr_top>ul{
+    padding: 20px 0;
+    overflow: hidden;
+}
+#list .listr .listr_top>ul li{
+    width: 33%;
+    float: left;
+}
+#list .listr .listr_top>ul li .aaimg{
+    width: 80px;
+    height: 100px;
+    float: left;
+}
+#list .listr .listr_top>ul li .aaimg img{
+    width: 60px;
+    height: 98px;
+    margin-left: 10px;
+}
+#list .listr .listr_top>ul li .aa2{
+    margin-left: 80px;
+    width: 180px;
+    height: 20px;
+    line-height: 20px;
+    overflow: hidden;
+    display: block;
+    height: 40px;
+    font: 12px/1.5 tahoma, arial, 宋体, sans-serif;
+    color:#333;
+}
+#list .listr .listr_top>ul li>p{
+    margin-left: 80px;
+    width: 180px;
+    height: 20px;
+    line-height: 20px;
+    overflow: hidden;
+    display: block;
+    padding: 2px 0;
+    color: #C53F4D;
+}
+#list .listr .listr_top>ul li p>span{
+    color: #C53F4D;
+    line-height: 20px;
+    font-size: 16px;
+    font-weight: normal;
+}
+#list .listr .listr_top>ul li>span{
+    width: 80px;
+    background: #db3838;
+    text-align: center;
+    color: #fff;
+    cursor: pointer;
+    height: 20px;
+    line-height: 20px;
+    overflow: hidden;
+    display: block;
+    font: 12px/1.5 tahoma, arial, 宋体, sans-serif;   
+}
+#list .listr .goodstop{
+    border: solid 1px #E6E1DB;
+    overflow: hidden;
+    margin-bottom: 10px;
+    width: 992px;  
+}
+#list .listr .listr_bottom dl{
+    margin: 0 20px;
+    line-height: 32px;
+    border-bottom: dashed 1px #CBC1B8;
+    padding: 4px 0;
+    overflow: hidden;
+    font: 12px/1.5 tahoma, arial, 宋体, sans-serif;
+}
+#list .listr .listr_bottom dl dt{
+    width: 60px;
+    color: #666;
+    float: left;
+    text-align: right;
+    line-height: 32px;
+}
+#list .listr .listr_bottom dl dd{
+    margin-left: 65px;
+    line-height: 32px;
+}
+#list .listr .listr_bottom dl dd a{
+    display: block;
+    float: left;
+    margin-right: 20px;
+    height: 16px;
+    line-height: 16px;
+    margin-top: 7px;
+    color: #444;    
+}
+#list .listr .listr_bottom dl dd a:nth-child(1){
+    background: #C63F4E;
+    color:#fff;
+}
+#list .listr .listr_bottom dl dd a:hover{
+    background: #C63F4E;
+    color:#fff;
+}
+#list .listr .listr_bottom dl dd #gengduo{
+    height: 32px;
+    line-height: 32px;
+    overflow: hidden;
+    padding-right: 120px;
+    cursor: pointer;
+    position: relative;
+}
+#list .listr .listr_bottom dl dd #gengduo span{
+    height: 20px;
+    line-height: 18px;
+    width: 40px;
+    display: block;
+    float: right;
+    padding-top: 6px;
+}
+#list .listr .listr_bottom dl dd #gengduo span i{
+    width: 16px;
+    height: 18px;
+    display: block;
+    float: right;
+    background: url(../img/icons.png)no-repeat -4px -75px;  
+}
+
+#list .listr .goods_tab>ul>li{
+    float: left;
+    width: 100px;
+    height: 40px;
+    color: #333;
+    font-family: "Microsoft YaHei";
+    line-height: 40px;
+    text-align: center;
+}
+#list .listr .goods_tab>ul>li a{
+    display: block;
+    height: 39px;
+    line-height: 38px;
+    text-align: center;
+    font-size: 14px;
+    color: #444;
+    border: solid 1px #CBC1B8;
+    background: url(../img/btn.png) no-repeat 0 -40px;
+}
+#list .listr .goods_tab>ul>li:nth-child(1) a{
+    background: url(../img/btn.png) no-repeat 0 0px;
+    color: #fff;
+    font-weight: bold;
+}
+#list .listr .goods_tab .goods_tabr{
+    float: right;
+    padding: 0 14px;
+    height: 30px;
+    line-height: 30px;
+}
+#list .listr .goods_tab .goods_tabr p{
+    float: left;
+    color: #555;
+    margin-right: 10px;
+    font-size: 12px;
+}
+#list .listr .goods_tab .goods_tabr p span{
+    font-size: 12px;
+    color:#555;
+    font-weight: bold;
+}
+#list .listr .goods_tab .goods_tabr label{
+    float: left;
+    color: #555;
+    margin-right: 10px;
+    font-size: 12px;
+}
+#list .listr .goods_tab .goods_tabr>a{
+    float: left;
+    width: 28px;
+    height: 28px;
+    line-height: 28px;
+    border: solid 1px #AA998A;
+    text-indent: -10000px;
+    overflow: hidden;
+    margin-left: 5px;
+    background: #F7F5F2 url(../img/icons.png) no-repeat 10px -94px;
+}
+#list .listr .goods_tab .goods_tabr>a:nth-child(3){
+    background-position: 10px -118px;
+}
+#list .listr .goods_tab .goods_price{
+    background-color: #fff;
+    border: solid 1px #DDDBD2;
+    border-top: solid 2px #C63F4E;
+    padding: 15px 0;
+    margin-bottom: 14px;
+    width: 990px;
+    float: left;
+}
+#list .listr .goods_tab .goods_price>ul>li{
+    /*width: 60px;*/
+    height: 28px;
+    float: left;
+    margin-left: 10px;
+}
+#list .listr .goods_tab .goods_price>ul>li a{
+    width: auto;
+    text-decoration: none;
+    padding: 0 18px 0 16px;
+    overflow: hidden;
+    display: block;
+    height: 26px;
+    line-height: 26px;
+    text-align: center;
+    border: 1px solid #E6E1DB;
+    color: #333;
+    font-size: 12px;
+}
+#list .listr .goods_tab .goods_price>ul>li .reda{
+    color:#fff;
+    background: #c63f4e;
+    border-color: #c63f4e;
+}
+#list .listr .goods_tab .goods_price>ul>li>a:hover{
+    background: #c63f4e;
+    border-color: #c63f4e;
+    color:#fff;
+}
+#list .listr .goods_tab .goods_price .goods_pricer{
+    float: right;
+}
+#list .listr .goods_tab .goods_price .goods_pricer p{
+    margin-right: 10px;
+    line-height: 28px;
+    display: block;
+    float: left;
+}
+#list .listr .goods_tab .goods_price .goods_pricer p label{
+    margin-right: 5px;
+    cursor: pointer;
+    font-size: 12px;
+}
+#list .listr .goods_tab .goods_price .goods_pricer p label em{
+    background: url(../img/icons.png) 0 -280px no-repeat;
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    vertical-align: middle;
+}
+#list .listr .goods_tab .goods_price .goods_pricer .city{
+    width: 72px;
+    height: 32px;
+    background: url(../img/bg_nav_view.png) no-repeat left -180px;
+    padding-left: 8px;
+    color: #333;
+    cursor: pointer;
+    margin-right: 10px;
+    font: 12px/1.5 tahoma, arial, 宋体, sans-serif;
+    line-height: 32px; 
+}
+
+#list .listr .goods_tab .goods_price .goods_pricer a{
+    float: left;
+    width: 45px;
+    text-indent: 10px;
+    text-align: left;
+    display: block;
+    height: 32px;
+    font: 12px/1.5 tahoma, arial, 宋体, sans-serif; 
+    line-height: 32px;
+    padding-left: 15px;
+    background: url(../img/bg_nav_view.png) no-repeat left -148px;
+    color: #333;
+       
+}
+
+#list .listr .goodslist{
+    padding-bottom: 80px;
+    width: 1000px;float: right;
+}
+#list .listr .goodslist ul{
+
+}
+#list .listr .goodslist ul li{
+    float: left;
+    margin-right: 10px;
+    width: 184px;
+    height: 450px;
+    border: 3px solid #DDDBD2;
+    background-color: #fff;
+    margin-bottom: 10px;
+    transition: all 1s;
+}
+#list .listr .goodslist #ulgoods li:hover{
+    border-color: #c63f4e;
+}
+#list .listr .goodslist>ul>li>dt>a{
+    width: 110px;
+    height: 180px;
+    display: block;
+    padding-top: 20px;
+    margin: 0 auto;
+}
+#list .listr .goodslist>ul>li>dt>a>img{
+    width: 100%;
+    height: 100%;
+}
+#list .listr .goodslist ul li dd:nth-child(2) a{
+    display: block;
+    margin-bottom: 10px;
+    line-height: 20px;
+    height: 60px;
+    overflow: hidden;
+    color: #333;
+    font-size: 14px;
+}
+#list .listr .goodslist ul li dd:nth-child(2){
+    background-color: #F8F8F5;
+    padding: 10px 8px;
+    color: #333;
+}
+#list .listr .goodslist ul li dd:nth-child(2) p{
+    display: block;
+    font-size: 14px;
+    height: 20px;
+    overflow: hidden;
+    color: #444;
+    font-size: 12px;
+}
+#list .listr .goodslist ul li dd:nth-child(2) span{
+    color: #B7262B;
+    display: block;
+    height: 20px;
+    overflow: hidden;
+    font-size: 12px;
+}
+#list .listr .goodslist ul li dd:nth-child(2) b{
+    line-height: 32px;
+    height: 32px;
+    overflow: hidden;
+    font-family: inherit;
+    color: #CC0000;
+    font-size: 22px;
+    font-weight: normal;
+}
+#list .listr .goodslist ul li dd:nth-child(2) b i{
+    font-size: 14px;
+}
+#list .listr .goodslist ul li>p{
+    padding: 8px 0;
+    background: #FAFAFA;
+}
+#list .listr .goodslist ul li>p>a{
+    margin: 0 auto;
+    background: #dd3939;
+    display: block;
+    height: 26px;
+    
+    text-align: center;
+    color: #fff;
+    width: 170px;
+    font: 12px/1.5 tahoma, arial, 宋体, sans-serif;
+    line-height: 26px;
+}
+#list .listr .goodslist ul li .sum{
+    height: 44px;
+    border-top: solid 1px #EFEFEF;
+    color: #666;
+}
+#list .listr .goodslist ul li .sum span{
+    border-right: 1px solid #EFEFEF;
+    float: left;
+    width: 60px;
+    padding: 4px 0;
+    height: 36px;
+    line-height: 18px;
+    text-align: center;
+    font: 12px/1.5 tahoma, arial, 宋体, sans-serif;
+}
+#list .listr .goodslist ul li .sum span b{
+    display: block;
+    font-weight: normal;
+    color: #C00;
+    line-height: 18px;
+    text-align: center;
+}
+
+.goodspage{
+    margin:0 auto;
+    width: 700px;
+}
+.goodspage p span,.goodspage span {
+    display: inline-block;
+    height: 32px;
+    line-height: 32px;
+    border: solid 1px #AA998A;
+    font-size: 14px;
+    padding: 0 12px;
+    background-color: #f7f5f2;
+    margin: 0 3px;
+    float: left;
+}
+.goodspage p .actives{
+    background-color: #C6404F;
+    border-color: #C63F4E;
+    color: #fff;
+}
+
+
+.cattab{
+    position: fixed;
+    background: #7e0001;
+    width: 34px;
+    height: 100%;
+    z-index: 1400;
+    right: 0px;
+    font: 12px/1.5 tahoma, arial, 宋体, sans-serif;
+    padding-top: 200px;
+}
+.cattab .cattab1 p{
+    background: url(../img/nBar_icon.png?20150309) no-repeat 2px 0;
+    width: 20px;
+    height: 20px;
+    border-bottom: 1px solid #650001;
+}
+.cattab .cattab2{
+    width: 20px;
+    height: auto;
+    display: block;
+    cursor: pointer;
+    border-bottom: 1px solid #650001;
+    height: 100px;
+}
+.cattab .cattab2 p{
+    background: url(../img/nBar_icon.png?20150309) no-repeat -20px 1px;
+    width: 20px;
+    height: 20px;
+    display: block;
+}
+.cattab .cattab2 .gwc{
+    text-align: center;
+    line-height: 1.2;
+    color: #fff;
+}
+.cattab .cattab2 span{
+    margin: 9px 0;
+    background: #f46b0a;
+    width: 20px;
+    height: 20px;
+    text-align: center;
+    display: block;
+    border-radius: 50%;
+    color: #fff;
+}
+.cattab>div{
+    padding: 7px;
+    width: 20px;
+    height: 20px;
+    border-bottom: 1px solid #650001;
+}
+.cattab div a{
+    width: 20px;
+    height: 20px;
+    display: block;
+    cursor: pointer;
+    background: #650001;
+    float: left;
+    background: url(../img/nBar_icon.png?20150309) no-repeat -40px 0px;
+}
+.cattab .a2 a{
+    background-position: -60px 0;
+}
+.cattab .a3 a{
+    background-position:-160px 0;
+}
+.cattab .a4 a{
+    background-position:-140px 0;
+}
+.cattab div:hover{
+    background:#000;
+}

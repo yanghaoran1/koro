@@ -1,0 +1,135 @@
+/* 
+* @Author: Marte
+* @Date:   2018-11-28 22:29:54
+* @Last Modified by:   Marte
+* @Last Modified time: 2018-11-29 14:57:09
+*/
+.con{
+    width: 960px;
+}
+#car_head{
+    background: #F1EEED;
+    border-bottom: solid 2px #7e0001;
+}
+.car_head{
+    height: 90px;
+    padding-top:10px ;
+}
+.car_head a{
+    width: 160px;
+    height: 100px;
+
+}
+.bar-wrapper{
+   box-shadow: 0 -3px 10px rgba(0,0,0,0.2); 
+   height: 50px;
+   padding:10px 10px 10px 0;
+}
+.bar-wrapper .bar-left a{
+    width: 160px;
+    background: url(//img12.yesmyimg.com/newWeb/images/cart/cart_icon.png?V20150519) 7px -189px no-repeat;
+    font-size: 12px;
+    height: 33px;
+    padding-left: 30px;
+    padding-top: 17px;
+    display: block;
+    float: left;
+}
+.bar-wrapper .bar-left a:nth-child(2){
+    background-position:8px -227px ;
+    color:#d63939;
+}
+
+
+.car_head .car_headr{
+    width: 479px;
+    float: right;
+    height: 39px;
+    margin: 20px 0;
+    background: url(../img/cart_step.png) no-repeat;
+}
+.cartMain_hd{
+    border-top: 2px solid #333;
+}
+.cartBox .cartMain_hd .cartTop{
+    line-height: 34px;
+}
+.cartMain_hd .cartTop .list_chk label{
+    top: 11px;
+}
+.order_lists .list_chk label{
+    margin:50px 0 0 50px;
+}
+.order_lists .list_con .list_text{
+    margin-top: 40px;
+}
+.order_lists .list_price .price{
+    font:normal bold 16px/32px arial;
+    margin-top: 40px;
+}
+.order_lists .list_amount .amount_box{
+    margin-top: 40px;
+
+}
+.order_lists .list_sum{
+    width: 13%;
+}
+.order_lists .list_sum .sum_price{
+    font:normal bold 16px/32px arial;
+    margin-top: 40px;
+}
+.order_lists .list_op{
+    float: right;
+    margin-top: 20px;
+    width: 120px;
+    height: 95px;
+    
+}
+.order_lists .list_op a{
+    color: #3172b2;
+}
+.cartBox .tianjia{
+    border-top: 1px dotted #9e9694;
+    background-color: #f1eeeb;
+}
+.cartBox .tianjia ul{
+    padding: 15px;
+    width: 928px;
+    border: 1px solid #ccc;
+}
+
+.cartBox .tianjia ul li{
+    float: left;
+    margin: 0;
+    padding: 0 15px 0 5px;
+    width: auto;
+    height: 40px;
+    line-height: 40px;
+}
+.cartBox .tianjia input{
+    width: 14px;
+    height: 14px;
+}
+.shop_info span{
+    float: right;
+    display: inline-block;
+    width: 70px;
+    height: 17px;
+    background: url(//img12.yesmyimg.com/newWeb/images/cart/cart_icon.png)no-repeat 0px -86px ;
+    color: #fff;
+    text-align: center;
+    font-weight: normal;
+    line-height: 17px;
+    cursor: pointer;
+    transform: translateY(-22px);
+}
+.shop_info span i{
+    right: 7px;
+    display: block;
+    width: 0;
+    height: 0;
+    border: 5px solid #c75050;
+    border-bottom-color: #fff;
+    float: right;
+    transform:translateX(-7px);
+}
